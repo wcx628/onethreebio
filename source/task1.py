@@ -12,6 +12,8 @@ args = parser.parse_args()
 if args.verbose:
     print("Verbose is turned on.")
 
+    
+# Load data from file or initial test list
 def load_id_list(args, test=True):
     
     drugbank_id_list = set()
@@ -46,6 +48,7 @@ def load_id_list(args, test=True):
     return drugbank_id_list
 
 
+# Main batch processor for list of drug_ids
 def main():
     
     # Loading request (can input a file)
