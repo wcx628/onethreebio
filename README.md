@@ -5,4 +5,4 @@ Webscrape API
 <br>
 <br>2. bash wrapper getgene [drug_id1, drug_id2 ...]
 <br>
-<br>3. run python task1.py to batch process from a file or a single id
+<br>3. run python task1.py to batch process from the initial provided test list
