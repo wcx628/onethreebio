@@ -1,4 +1,5 @@
 from lib import *
+import pprint
 import argparse
 
 # Initialize API argument parser
@@ -65,7 +66,7 @@ def main():
             gene_result[drug_id] = res.copy()
             print("retrieving gene info " + drug_id + " successful")
 
-    print(gene_result)
+    pprint.pprint(gene_result)
             
     return gene_result
 
