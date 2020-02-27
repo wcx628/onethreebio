@@ -2,7 +2,7 @@ from lib import *
 import pprint
 import argparse
 
-# Initialize API argument parser
+# Initialize argument parser from command line
 parser = argparse.ArgumentParser()
 parser.add_argument("drug_id", nargs='?', default="", help="individual drugbank id string to look up in drug bank website")
 parser.add_argument("-f","--file", help="file with list of drugbank id in the current folder, one id each line")
