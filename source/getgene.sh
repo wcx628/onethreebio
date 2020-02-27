@@ -3,5 +3,5 @@
 
 for DRUG_ID in "$@"
 do
-curl "127.0.0.1:5000/api?=${DRUG_ID}"
+curl "127.0.0.1:5000/api?drug_id=${DRUG_ID}"
 done
